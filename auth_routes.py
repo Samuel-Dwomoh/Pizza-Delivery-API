@@ -30,3 +30,30 @@ async def signup(user:SignUpModel):
     session.add(new_user)
     session.commit()
     return new_user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#login route
+@auth_router.post("/login")
+async def login():
+    pass
